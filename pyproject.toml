@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lambdacloudwrapper"
+version = "0.1.0"
+description = ""
+authors = ["sannytee <tywosanni@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
